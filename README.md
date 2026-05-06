@@ -114,3 +114,5 @@ outputs/
 ### Auteur / Contexte
 
 Projet realise dans le cadre de la certification CDSD (Jedha), Bloc 2: Exploratory Data Analysis.
+
+- By RANJAKASOA Raphaël Marcellin
