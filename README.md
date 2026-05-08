@@ -62,11 +62,21 @@ Hors perimetre:
 #### **1. Prerequis**
 
 - Python `3.12+`
-- `uv` installe sur la machine
+- `pip` (inclus avec Python en general)
 
 #### **2. Installation**
 
 Depuis la racine du projet:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Option (si vous utilisez `uv`) :
 
 ```bash
 uv sync
