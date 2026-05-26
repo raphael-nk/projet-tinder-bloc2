@@ -195,6 +195,8 @@ numpy==2.4.4
     # via pandas
 orjson==3.11.8
     # via kaleido
+overrides==7.7.0 ; python_full_version < '3.12'
+    # via jupyter-server
 packaging==26.2
     # via
     #   ipykernel
@@ -290,6 +292,7 @@ rpds-py==0.30.0
     # via
     #   jsonschema
     #   referencing
+ruff==0.15.14
 send2trash==2.1.0
     # via jupyter-server
 setuptools==82.0.1
@@ -337,6 +340,7 @@ typing-extensions==4.15.0
     # via
     #   anyio
     #   beautifulsoup4
+    #   ipython
     #   referencing
 tzdata==2026.2
     # via
