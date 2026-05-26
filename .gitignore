@@ -1,2 +1,27 @@
+# Python
+__pycache__/
+*.py[codz]
+*.egg-info/
+dist/
+build/
+
+# Environments
 .venv/
-.env 
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ruff / linters
+.ruff_cache/
+.mypy_cache/
