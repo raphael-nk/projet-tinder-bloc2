@@ -4,7 +4,7 @@
 
 # Projet Tinder — Speed Dating Analysis
 
-**Bloc 2 — Exploratory Data Analysis** · Certification RNCP CDSD — Jedha
+**Bloc 2 — Exploratory Data Analysis** · Certification CDSD RNCP35288 - Niveau 6 · [Jedha Bootcamp](https://www.jedha.co/)
 
 Tinder est une application de rencontre et de réseau social géolocalisé. Ce projet exploite un jeu de données de speed dating pour comprendre les facteurs qui favorisent l'intérêt mutuel entre deux personnes et augmentent la probabilité d'accepter un second rendez-vous.
 
@@ -177,4 +177,4 @@ Chaque notebook dépend des sorties du précédent.
 
 **RANJAKASOA Raphaël Marcellin**
 
-Projet réalisé dans le cadre du **Bloc 2 — Exploratory Data Analysis**, certification **RNCP CDSD**, **Jedha Bootcamp**.
+Projet réalisé dans le cadre du **Bloc 2 — Exploratory Data Analysis**, certification **CDSD RNCP35288 - Niveau 6**, [**Jedha Bootcamp**](https://www.jedha.co/).
