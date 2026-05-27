@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="outputs/images/logo-tinder.png" alt="Logo Tinder" width="250">
+  <img src="outputs/images/logo-tinder.png" alt="Logo Tinder" width="100%">
 </p>
 
 # Projet Tinder — Speed Dating Analysis
@@ -74,11 +74,51 @@ Statistiques descriptives, analyse bivariée et multivariée autour de la variab
 
 Construction d'un récit structuré autour des insights clés : quels facteurs prédisent un match, quelles différences entre les genres, comment les préférences déclarées se comparent aux choix réels. Les visuels suivent la convention `viz_<thème>_<message>.png`.
 
-## Visualisations clés
+## Résultats — Data Storytelling
+
+Les visualisations suivantes sont extraites du notebook `04_data_storytelling.ipynb` et structurent le récit data.
+
+#### Déclaratif vs vécu : les préférences annoncées sont-elles suivies ?
 
 ![Déclaratif vs vécu](outputs/images/viz_declaratif_vs_vecu.png)
+
+Les participants déclarent des critères de sélection (attractivité, humour, intelligence…) mais leurs choix réels révèlent des écarts significatifs. Les préférences déclarées ne prédisent pas toujours le comportement réel lors du speed dating.
+
+#### Taux de conversion du « oui » vers le match
+
 ![Conversion vers le match](outputs/images/viz_conversion_oui_vers_match.png)
+
+Un « oui » unilatéral ne suffit pas à garantir un match : le taux de conversion montre que la réciprocité est le facteur déterminant. Ce funnel permet de quantifier la difficulté de passer de l'intérêt individuel au match mutuel.
+
+#### Leviers du like et de la conversion
+
 ![Leviers du like](outputs/images/viz_levier_like_conversion.png)
+
+Identification des variables qui influencent le plus la probabilité d'un « oui ». Certains attributs (attractivité perçue, intérêts communs) pèsent davantage que d'autres dans la décision.
+
+#### Segmentation par profil de conversion
+
+![Segmentation conversion](outputs/images/viz_segmentation_conversion.png)
+
+Segmentation des participants selon leur profil de conversion : certains profils matchent beaucoup plus que d'autres. Cette analyse permet de cibler les segments à fort potentiel.
+
+#### Priorités par genre
+
+![Priorités par genre](outputs/images/viz_priorites_genre.png)
+
+Comparaison des critères de sélection entre hommes et femmes : les priorités diffèrent significativement selon le genre, ce qui éclaire les stratégies de matching.
+
+#### Confiance en soi vs résultat réel
+
+![Confiance vs résultat](outputs/images/viz_confiance_vs_resultat.png)
+
+La confiance en soi (auto-évaluation) est-elle corrélée au succès réel en speed dating ? Cette analyse révèle le décalage entre perception de soi et résultats obtenus.
+
+#### Intérêts vs origine
+
+![Intérêts vs origine](outputs/images/viz_interets_vs_origine.png)
+
+Distribution des centres d'intérêt selon l'origine des participants. Cette visualisation met en lumière les facteurs culturels et démographiques qui influencent les préférences.
 
 ## Installation
 
